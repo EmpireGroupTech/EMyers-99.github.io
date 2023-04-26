@@ -1,0 +1,14 @@
+{
+    "name": "my-website",
+    "version": "1.0.0",
+    "description": "My awesome website",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --open --mode development"
+    },
+    "devDependencies": {
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.0",
+        "webpack-dev-server": "^4.6.0"
+    }
+}
